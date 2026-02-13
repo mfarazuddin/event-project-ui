@@ -1,42 +1,89 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
+header {
+  height: 90px;
+  box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
+  background-color: #fffbf2;
+  width: 100%;
+}
+.container {
+  padding: 10px 150px 10px 150px;
+  height: 80px;
+}
+.grid {
+  display: grid;
+}
+.navbar-grid {
+  grid-template-columns: 0.5fr 1fr;
+  align-items: center;
+  height: 80px;
+}
+nav ul {
+  display: flex;
+  justify-content: flex-end;
+  gap: 50px;
+}
+li {
+  list-style: none;
+}
+li a {
+  text-decoration: none;
+  color: #000;
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
-}
-
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
+  &:hover {
+    color: #daa425;
+    text-decoration: underline;
   }
-  to {
-    transform: rotate(360deg);
+}
+button {
+  cursor: pointer;
+}
+.ham-menu {
+  display: none;
+}
+.khush{
+  color: #b9860f;
+}
+.login-btn{
+  background-color: #b9860f;
+  border-radius: 15px;
+  padding:6px 20px ;
+  border: none;
+}
+.login-btn a{
+  color: #f9efd8;
+}
+
+/* media queries */
+@media screen and (max-width: 998px) {
+  .menu-web {
+    display: none;
   }
-}
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
+  .ham-menu {
+    display: inline-block;
+    text-align: end;
   }
-}
-
-.card {
-  padding: 2em;
-}
-
-.read-the-docs {
-  color: #888;
+  .menu-mobaile {
+    position: absolute;
+    top: 90px;
+    left: 0;
+    background-color: #f9efd8;
+    width: 100%;
+    box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
+  }
+  .menu-mobaile ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .menu-mobaile ul li:first-child {
+    margin-top: 10px;
+  }
+  .menu-mobaile ul li:last-child {
+    margin-bottom: 10px;
+  }
 }
