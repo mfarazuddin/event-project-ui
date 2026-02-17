@@ -35,7 +35,7 @@ li a {
 
   &:hover {
     color: #daa425;
-    text-decoration: underline;
+    /* text-decoration: underline; */
   }
 }
 button {
@@ -44,17 +44,60 @@ button {
 .ham-menu {
   display: none;
 }
-.khush{
+.khush {
   color: #b9860f;
 }
-.login-btn{
+.login-btn {
   background-color: #b9860f;
   border-radius: 15px;
-  padding:6px 20px ;
+  padding: 6px 20px;
   border: none;
 }
-.login-btn a{
+.login-btn a {
   color: #f9efd8;
+}
+/* dropdown fiest line */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+.dropdown-btn {
+  background: #fffbf2;
+  border: none;
+  cursor: pointer;
+}
+.dropdown-menu {
+  position: absolute;
+  top: 52px;
+  left: -899px;
+  right: -563px;
+  background: #fffbf2;
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  gap: 150px;
+}
+.dropdown-menu p {
+  position: relative;
+  padding-bottom: 6px;
+  &:hover {
+    color: #b9860f;
+  }
+}
+.dropdown-menu p::after {
+  content: "";
+  position: absolute;
+  left: -40px;
+  bottom: 0;
+  width: 0;
+  height: 2px;
+  background: #daa425;
+  transition: width 0.3s ease;
+}
+.dropdown-menu p:hover::after {
+  width: 190%;
 }
 
 /* media queries */
