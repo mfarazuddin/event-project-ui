@@ -106,7 +106,6 @@ button {
   display: inline-block;
   z-index: 200;
 }
-/* full background layer */
 .subFullbg {
   position: absolute;
   left: -204px;
