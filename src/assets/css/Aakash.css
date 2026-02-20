@@ -25,6 +25,7 @@ nav .Megaul {
   display: flex;
   justify-content: flex-end;
   gap: 50px;
+  padding-top: 28px;
 }
 li {
   list-style: none;
@@ -53,9 +54,15 @@ button {
   border-radius: 15px;
   padding: 6px 20px;
   border: none;
+  transition: 0.3s;
 }
+.login-btn:hover {
+  transform: translateY(-5px);
+}
+
 .login-btn a {
-  color: #f9efd8;
+  color: #f7f6f2;
+  text-decoration: none;
 }
 /* dropdown fiest line */
 .dropdownMega {
@@ -152,7 +159,7 @@ button {
 }
 .subFullbg2 {
   position: absolute;
-  left: -465px;
+  left: -475px;
   top: 32px;
   width: 100vw;
   min-height: 260px;
@@ -292,5 +299,8 @@ button {
   }
   .menu-mobaile ul li:last-child {
     margin-bottom: 10px;
+  }
+  .Megadropdown-menu{
+    display: none;
   }
 }

@@ -14,10 +14,13 @@ import Featurea from "./componenets/Featurea.jsx";
 import "./assets/css/Featurea.css";
 import Event_vendor from "./componenets/Event_vendor.jsx";
 import "./assets/css/Event_vendor.css";
+import Explore from "./componenets/Explore.jsx";
+import "./assets/css/Explore.css";
 function App() {
   return (
     <>
       <Navbar />
+      <Explore />
       <Event_vendor />
       <Featurea />
       <Aakash_gallary />

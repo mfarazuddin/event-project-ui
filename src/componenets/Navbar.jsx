@@ -240,9 +240,9 @@ const Navbar = () => {
                     <RiArrowDropDownLine />
                   </span>
                 </li>
-                <li className="login-btn">
+                <button className="login-btn">
                   <a href="#">Login</a>
-                </li>
+                </button>
               </ul>
             </nav>
             <div className="ham-menu">
