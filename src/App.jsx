@@ -16,10 +16,15 @@ import Event_vendor from "./componenets/Event_vendor.jsx";
 import "./assets/css/Event_vendor.css";
 import Explore from "./componenets/Explore.jsx";
 import "./assets/css/Explore.css";
+import Hero from "./components/Hero";
+import LandingPage from "./components/LandingPage.jsx";
+
 function App() {
   return (
     <>
       <Navbar />
+      <Hero />
+      <LandingPage />
       <Explore />
       <Event_vendor />
       <Featurea />
