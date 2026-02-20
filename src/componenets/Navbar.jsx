@@ -38,7 +38,7 @@ const Navbar = () => {
           <div className="grid navbar-grid">
             <div className="logo">
               <h2>
-                <span className="khush">Khush</span>• Event
+                <span className="khush">Khush </span> • Event
               </h2>
             </div>
             <nav className={showMenu ? "menu-mobaile" : "menu-web"}>

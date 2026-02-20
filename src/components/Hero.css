@@ -1,20 +1,21 @@
 /* 1. Font */
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;1,700&family=Poppins:wght@300;600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;1,700&family=Poppins:wght@300;600&display=swap");
 
 /* 2. Banner content*/
 .hero-container {
   position: relative;
   width: 100%;
   height: 100vh;
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url('D:/wedding-project/event-project-ui/src/assets/bg.jpg'); 
+  /* background:
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url('event-project-ui\src\assets\Banner\marrige.jpg'); */
   background-size: cover;
   background-position: center;
   display: flex;
   align-items: center;
   justify-content: center;
-  font-family: 'Poppins', sans-serif;
-  padding: 0 20px; 
+  font-family: "Poppins", sans-serif;
+  padding: 0 20px;
   box-sizing: border-box;
 }
 
@@ -57,7 +58,7 @@
 }
 
 .italic-gold {
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
   font-style: italic;
   color: #f1d58b;
 }
@@ -71,7 +72,7 @@
   max-width: 600px;
   margin-left: auto;
   margin-right: auto;
-  box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
 }
 
 .filter-row {
@@ -88,9 +89,9 @@
   border-radius: 8px;
   background-color: #f9f9f9;
   color: #333;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 0.9rem;
-  appearance: none; 
+  appearance: none;
   background-position: right 10px center;
   background-size: 1em;
 }
@@ -103,11 +104,11 @@
 
 .search-btn {
   width: 100%;
-  background-color: #b39031; 
+  background-color: #b39031;
   color: white;
   border: none;
   padding: 14px;
-  border-radius: 50px; 
+  border-radius: 50px;
   font-size: 1.1rem;
   font-weight: 600;
   cursor: pointer;
@@ -128,20 +129,18 @@
   }
 }
 
-
 .search-card {
   background: #fff;
-  border-radius: 25px; 
+  border-radius: 25px;
   padding: 10px;
   margin: 40px auto 0;
   width: 100%;
-  max-width: 700px; 
+  max-width: 700px;
   box-shadow: 0 8px 30px rgba(0, 0, 0, 0.15);
   display: flex;
   flex-direction: column;
   overflow: hidden;
 }
-
 
 .filter-group {
   display: flex;
@@ -161,26 +160,25 @@
   border: 1px solid #eee;
   border-radius: 12px;
   background-color: #f8f9fa;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 0.95rem;
   color: #555;
   cursor: pointer;
-  appearance: none; 
+  appearance: none;
   background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23999' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='6 9 12 15 18 9'%3E%3C/polyline%3E%3C/svg%3E");
   background-repeat: no-repeat;
   background-position: right 15px center;
   background-size: 14px;
 }
 
-
 .button-section {
   padding: 10px 15px 15px;
-  border-top: 1px solid #f0f0f0; 
+  border-top: 1px solid #f0f0f0;
 }
 
 .search-btn {
   width: 100%;
-  background-color: #b58e2d; 
+  background-color: #b58e2d;
   color: #fff;
   border: none;
   padding: 15px;
@@ -192,7 +190,9 @@
   align-items: center;
   justify-content: center;
   gap: 10px;
-  transition: transform 0.2s, background 0.3s;
+  transition:
+    transform 0.2s,
+    background 0.3s;
 }
 
 .search-btn:hover {
@@ -202,15 +202,14 @@
 
 @media (min-width: 600px) {
   .filter-group {
-    flex-direction: row; 
+    flex-direction: row;
     gap: 15px;
   }
-  
+
   .search-card {
     padding: 15px;
   }
 }
-
 
 @media (min-width: 1024px) {
   .search-card {
