@@ -72,8 +72,8 @@ button {
 .Megadropdown-menu {
   position: absolute;
   top: 52px;
-  left: -818px;
-  right: -624px;
+  left: -825px;
+  right: -601px;
   background: #fffbf2;
   box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
   display: flex;
