@@ -2,6 +2,7 @@ import React from "react";
 import Blogimg1 from "../assets/image/Blog/Blog1.jpg";
 import Blogimg2 from "../assets/image/Blog/Blog2.jpg";
 import Blogimg3 from "../assets/image/Blog/Blog3.jpg";
+import "../assets/css/Bloga.css";
 
 
 
@@ -20,7 +21,7 @@ const Bloga = () => {
             src={Blogimg1}
             alt="Bride Groom"
           />
-          <div className="card-content green">
+          <div className="card-contenta green">
             <h3>34 Bride & Groom Entry Ideas</h3>
             <p>
               Catering Trends 2025: What's Cooking at Indian Weddings & Parties?
@@ -33,7 +34,7 @@ const Bloga = () => {
             src={Blogimg2}
             alt="Wedding"
           />
-          <div className="card-content peach">
+          <div className="card-contenta peach">
             <h3>2025 Wedding Photography Trends</h3>
             <p>
               2025 Wedding Photography Trends in India: For Newcomers & Industry Leaders
@@ -46,7 +47,7 @@ const Bloga = () => {
             src={Blogimg3}
             alt="Catering"
           />
-          <div className="card-content purple">
+          <div className="card-contenta purple">
             <h3>Catering Trends 2025 ?</h3>
             <p>
               Catering Trends 2025: What's Cooking at Indian Weddings & Parties?

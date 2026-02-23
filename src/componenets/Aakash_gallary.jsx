@@ -22,6 +22,7 @@ import img20 from "../assets/image/gallary/imag20.jpg";
 import img21 from "../assets/image/gallary/imag21.jpg";
 import img22 from "../assets/image/gallary/imag22.jpg";
 import img23 from "../assets/image/gallary/imag23.jpg";
+import "../assets/css/Gallary.css";
 
 // import "./Gallery.css";
 

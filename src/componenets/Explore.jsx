@@ -6,6 +6,7 @@ import vicon4 from "../assets/image/Vendor-icons/Vendor-icon3.png";
 import vicon5 from "../assets/image/Vendor-icons/Vendor-icon4.png";
 import vicon6 from "../assets/image/Vendor-icons/Vendor-icon5.png";
 import vicon7 from "../assets/image/Vendor-icons/Vendor-icon6.png";
+import "../assets/css/Explore.css";
 
 const Explore = () => {
   const categories = [

@@ -1,9 +1,8 @@
 .vendor-container {
   display: flex;
   align-items: center;
-  justify-content: center; 
   gap: 30px;
-  padding: 40px 20px;
+  padding: 40px 120px;
   background-color: #fdfaf5; 
   font-family: 'Inter', -apple-system, sans-serif;
 }
@@ -50,9 +49,8 @@
 /* Venue section */
 
 .venues-section {
-  max-width: 1200px;
   margin: 0 auto;
-  padding: 20px;
+  padding: 20px 120px;
 }
 
 .section-title {

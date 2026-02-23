@@ -1,5 +1,7 @@
 import React from "react";
 import arrow from "../assets/image/icon-arrow.png";
+import "../assets/css/Featurea.css";
+
 const Featurea = () => {
   return (
     <section className="packages">

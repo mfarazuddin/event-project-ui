@@ -1,38 +1,19 @@
 import { useState } from "react";
 import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
-import "./assets/css/Aakash_module.css";
-import "./assets/css/Aakash.css";
-import Navbar from "./componenets/Navbar";
-import "./assets/css/Gallary.css";
-import Aakash_gallary from "./componenets/Aakash_gallary.jsx";
-import Bloga from "./componenets/Bloga.jsx";
-import "./assets/css/Bloga.css";
-import Footera from "./componenets/Footera.jsx";
-import "./assets/css/Footera.css";
-import Featurea from "./componenets/Featurea.jsx";
-import "./assets/css/Featurea.css";
-import Event_vendor from "./componenets/Event_vendor.jsx";
-import "./assets/css/Event_vendor.css";
-import Explore from "./componenets/Explore.jsx";
-import "./assets/css/Explore.css";
-import Hero from "./components/Hero";
-import LandingPage from "./components/LandingPage.jsx";
+import Home_page from "./PagesA/Home_page";
+import Corporate_page from "./PagesA/Corporate_page";
+import VenueDetails from "./PagesA/VenueDetails";
 
 function App() {
   return (
     <>
-      <Navbar />
-      <Hero />
-      <LandingPage />
-      <Explore />
-      <Event_vendor />
-      <Featurea />
-      <Aakash_gallary />
-      <Bloga />
-      <Footera />
+      {/* <Home_page /> */}
+      {/* <Corporate_page /> */}
+      <VenueDetails />
     </>
   );
 }
 
 export default App;
+

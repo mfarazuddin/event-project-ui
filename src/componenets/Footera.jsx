@@ -1,4 +1,6 @@
 import React from "react";
+import "../assets/css/Footera.css";
+
 import Icons1 from "../assets/image/Icons/icon1.png";
 import Icons2 from "../assets/image/Icons/icon2.png";
 import Icons3 from "../assets/image/Icons/icon3.png";

@@ -3,6 +3,7 @@ import wedding from "../assets/image/Vendor/vendor1.jpg";
 import corporate from "../assets/image/Vendor/vendor2.jpg";
 import religious from "../assets/image/Vendor/vendor3.jpg";
 import celebration from "../assets/image/Vendor/vendor4.jpg";
+import "../assets/css/Event_vendor.css";
 
 const Event_vendor = () => {
   const data = [
@@ -41,7 +42,7 @@ const Event_vendor = () => {
 
       <div className="card-container">
         {data.map((item) => (
-          <div className="card" key={item.id}>
+          <div className="carda" key={item.id}>
             <img src={`${item.img}`} alt={item.type} />
             <div className="card-content">
               <h3>{item.discount}</h3>
