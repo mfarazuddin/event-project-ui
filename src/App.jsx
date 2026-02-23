@@ -3,7 +3,7 @@ import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
 import Home_page from "./PagesA/Home_page";
 import Corporate_page from "./PagesA/Corporate_page";
-import VenueDetails from "./PagesA/VenueDetails";
+import VenueDetails from "./componenets/VenueDetails";
 
 function App() {
   return (
