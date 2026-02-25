@@ -164,6 +164,10 @@
 .contact-btn:hover {
     background: #1b5e20;
 }
+.linkingpage a{
+    text-decoration: none;
+    color: #000;
+}
 
 /* Tablet */
 @media (max-width: 1024px) {

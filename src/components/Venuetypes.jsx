@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import venueImage from "../assets/JaiKrishna/JaiShreeKrishna.jpg";
 import "../components/Venuetypes.css";
+import { Link } from "react-router-dom";
 
 const venues = [1, 2, 3, 4];
 
@@ -41,7 +42,7 @@ function Venuetypes() {
 
                             <div className="card-body">
                                 <h4 className="price">₹ 35,999</h4>
-                                <h3>Jai shree Krishna</h3>
+                                <h3 className="linkingpage"><Link to="JAypage">Jai shree Krishna</Link> </h3>
 
                                 <p>
                                     Welcome to a space where every celebration feels special.

@@ -62,7 +62,7 @@ const Navbar = () => {
                           <div className="subFullbg">
                             <div className="subDropdown-menu">
                               <ul>
-                                <li>Award Night</li>
+                                <li><Link to="VenueType">Award Night</Link></li>
                                 <li>Celebrity Appearance</li>
                                 <li>Corporate Retreat</li>
                                 <li>PR Parties</li>

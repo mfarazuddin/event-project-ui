@@ -16,7 +16,7 @@ header {
 .grid {
   display: grid;
 }
-.logo h2 a{
+.logo h2 a {
   text-decoration: none;
 }
 .logo h2 a {
@@ -86,8 +86,8 @@ button {
 .Megadropdown-menu {
   position: absolute;
   top: 52px;
-  left: -825px;
-  right: -601px;
+  left: -756px;
+  right: -653px;
   background: #fffbf2;
   box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
   display: flex;
@@ -122,7 +122,7 @@ button {
 }
 .subFullbg {
   position: absolute;
-  left: -228px;
+  left: -160px;
   top: 32px;
   width: 100vw;
   min-height: 260px;
@@ -166,7 +166,7 @@ button {
 }
 .subFullbg2 {
   position: absolute;
-  left: -475px;
+  left: -445px;
   top: 32px;
   width: 100vw;
   min-height: 260px;
@@ -307,7 +307,7 @@ button {
   .menu-mobaile ul li:last-child {
     margin-bottom: 10px;
   }
-  .Megadropdown-menu{
+  .Megadropdown-menu {
     display: none;
   }
 }
