@@ -12,17 +12,16 @@ import Footera from "../componenets/Footera";
 function Home_page() {
   return (
     <>
-<Navbar />
-<Hero />
-<LandingPage />
-<Explore />
-<Event_vendor />
-<Featurea />
-<Aakash_gallary />
-<Bloga />
-<Footera />
-
+          <Navbar />
+          <Hero />
+          <LandingPage />
+          <Explore />
+          <Event_vendor />
+          <Featurea />
+          <Aakash_gallary />
+          <Bloga />
+          <Footera />
     </>
   );
-};
+}
 export default Home_page;

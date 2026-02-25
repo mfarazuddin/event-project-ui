@@ -55,13 +55,20 @@
   border-radius: 25px;
   border: 1px solid #d4a62a;
   background: transparent;
-  color: #d4a62a;
-  cursor: pointer;
+    cursor: pointer;
   font-size: 13px;
   transition: 0.3s;
+}
+.card-content button a {
+  text-decoration: none;
+  color: #d4a62a;
 }
 
 .card-content button:hover {
   background: #d4a62a;
   color: white;
+}
+.card-content button a:hover {
+  color: white;
+
 }

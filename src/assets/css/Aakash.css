@@ -16,6 +16,12 @@ header {
 .grid {
   display: grid;
 }
+.logo h2 a{
+  text-decoration: none;
+}
+.logo h2 a {
+  color: #000;
+}
 .navbar-grid {
   grid-template-columns: 0.5fr 1fr;
   align-items: center;
@@ -32,6 +38,7 @@ li {
 }
 .Megaul li a {
   text-decoration: none;
+  font-size: medium;
   color: #000;
   &:hover {
     color: #b9860f;

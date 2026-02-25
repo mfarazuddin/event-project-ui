@@ -3,17 +3,21 @@ import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
 import Home_page from "./PagesA/Home_page";
 import Corporate_page from "./PagesA/Corporate_page";
-import VenueDetails from "./componenets/VenueDetails";
+import Jay_shree_krishanPage from "./PagesA/Jay_shree_krishanPage";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {
   return (
     <>
-      {/* <Home_page /> */}
-      {/* <Corporate_page /> */}
-      <VenueDetails />
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Home_page />} />
+           {/* <Corporate_page /> */}
+           <Route path="jayShrPage" element={<Jay_shree_krishanPage />}/>
+        </Routes>
+      </BrowserRouter>
     </>
   );
 }
 
 export default App;
-

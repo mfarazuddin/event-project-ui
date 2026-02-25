@@ -3,6 +3,7 @@ import "../assets/css/Aakash.css";
 
 import { RiArrowDropDownLine } from "react-icons/ri";
 import myToggle from "../assets/image/toggle.png";
+import { Link } from "react-router-dom";
 const Navbar = () => {
   const [showMenu, setShowMenu] = useState(false);
   const handleButtonToggle = () => {
@@ -40,7 +41,7 @@ const Navbar = () => {
           <div className="grid navbar-grid">
             <div className="logo">
               <h2>
-                <span className="khush">Khush </span> • Event
+               <Link to="/"> <span className="khush">Khush </span> • Event</Link>
               </h2>
             </div>
             <nav className={showMenu ? "menu-mobaile" : "menu-web"}>

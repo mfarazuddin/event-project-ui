@@ -4,6 +4,7 @@ import corporate from "../assets/image/Vendor/vendor2.jpg";
 import religious from "../assets/image/Vendor/vendor3.jpg";
 import celebration from "../assets/image/Vendor/vendor4.jpg";
 import "../assets/css/Event_vendor.css";
+import { Link } from "react-router-dom";
 
 const Event_vendor = () => {
   const data = [
@@ -46,7 +47,7 @@ const Event_vendor = () => {
             <img src={`${item.img}`} alt={item.type} />
             <div className="card-content">
               <h3>{item.discount}</h3>
-              <button>{item.type}</button>
+              <button><Link to="jayShrPage">{item.type}</Link></button>
             </div>
           </div>
         ))}
