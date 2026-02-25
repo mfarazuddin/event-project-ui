@@ -12,15 +12,15 @@ const Hero = () => {
         backgroundImage: `linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(${bannerImg})`,
       }}
     >
-      {" "}
+      
       <div className="hero-content">
         <h1>
           Make Your Event <span className="italic-gold">Unforgettable</span>{" "}
           <br />
           with the Right Vendors
         </h1>
-        <p className="sub-text">
-          Discover <span className="italic-gold">Trusted</span> Event Vendors in
+        <p className="sub-textNew">
+          Discover <span className="italic-gold">Trusted</span> Event Vendors <br/> in
           Your City
         </p>
 

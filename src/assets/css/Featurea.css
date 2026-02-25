@@ -34,7 +34,7 @@
   transform: scale(1.05);
 }
 
-.badge {
+.badgea {
   background: #b8902c;
   color: #fff;
   padding: 6px 15px;
@@ -44,7 +44,7 @@
   margin-bottom: 15px;
 }
 
-.badge.white {
+.badgea.white {
   background: #fff;
   color: #b8902c;
 }
@@ -77,7 +77,7 @@ ul li {
   margin-bottom: 8px;
 }
 
-.btn {
+.btna {
   width: 100%;
   padding: 10px;
   border: none;
@@ -88,12 +88,12 @@ ul li {
   transition: 0.3s;
   text-align: start;
 }
-.btn img {
+.btna img {
   width: 17px;
-  margin-left: 150px;
+  margin-left: 145px;
 }
 
-.btn:hover {
+.btna:hover {
   background: #e6d5b8;
 }
 
