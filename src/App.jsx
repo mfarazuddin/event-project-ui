@@ -18,10 +18,17 @@ import Explore from "./componenets/Explore.jsx";
 import "./assets/css/Explore.css";
 import Hero from "./components/Hero";
 import LandingPage from "./components/LandingPage.jsx";
+import Corporateevents from './components/Corporateevents.jsx';
+import Venuetypes from "./components/Venuetypes.jsx";
+import Venues from "./components/Venues.jsx";
+
 
 function App() {
   return (
     <>
+      {/* Page1 */}
+
+
       <Navbar />
       <Hero />
       <LandingPage />
@@ -31,6 +38,29 @@ function App() {
       <Aakash_gallary />
       <Bloga />
       <Footera />
+
+
+      {/* Page2 */}
+
+
+      {/* <Navbar />
+      <Corporateevents />
+      <Explore />
+      <Aakash_gallary />
+      <Footera /> */}
+
+
+      {/* Page3 */}
+
+
+      {/* <Navbar />
+      <Venuetypes />
+      <Footera /> */}
+
+
+      {/* <Navbar />
+      <Venues />
+      <Footera /> */}
     </>
   );
 }
