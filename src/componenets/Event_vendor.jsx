@@ -47,7 +47,7 @@ const Event_vendor = () => {
             <img src={`${item.img}`} alt={item.type} />
             <div className="card-content">
               <h3>{item.discount}</h3>
-              <button><Link to="jayShrPage">{item.type}</Link></button>
+              <button><Link to="CorporatePage">{item.type}</Link></button>
             </div>
           </div>
         ))}
