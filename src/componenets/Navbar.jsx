@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import "../assets/css/Aakash.css";
-
 import { RiArrowDropDownLine } from "react-icons/ri";
 import myToggle from "../assets/image/toggle.png";
 import { Link } from "react-router-dom";
@@ -238,7 +237,7 @@ const Navbar = () => {
                   </span>
                 </li>
                 <li className="dropdown-btn">
-                  <a href="#">Venues </a>
+                  <Link to="#">Venues </Link>
                   <span className="down-icon">
                     <RiArrowDropDownLine />
                   </span>
