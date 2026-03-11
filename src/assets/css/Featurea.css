@@ -1,0 +1,114 @@
+.packages {
+  padding: 70px 8%;
+  background-color: #f6f2ea;
+}
+
+.section-title {
+  font-size: 32px;
+  margin-bottom: 50px;
+  font-weight: 600;
+}
+
+.packages-container {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.package-card {
+  background: #fff;
+  padding: 30px;
+  border-radius: 12px;
+  width: 320px;
+  text-align: left;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+  transition: 0.3s;
+}
+
+.package-card:hover {
+  transform: translateY(-8px);
+}
+
+.package-card.popular {
+  background: #b8902c;
+  transform: scale(1.05);
+}
+
+.badgea {
+  background: #b8902c;
+  color: #fff;
+  padding: 6px 15px;
+  border-radius: 6px;
+  font-size: 14px;
+  display: inline-block;
+  margin-bottom: 15px;
+}
+
+.badgea.white {
+  background: #fff;
+  color: #b8902c;
+}
+
+.sub-text {
+  font-size: 14px;
+  color: #777;
+  margin-bottom: 10px;
+}
+
+.price {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.desc {
+  font-size: 14px;
+  margin-bottom: 15px;
+  color: #555;
+}
+
+ul {
+  padding-left: 18px;
+  margin-bottom: 20px;
+}
+
+ul li {
+  font-size: 14px;
+  margin-bottom: 8px;
+}
+
+.btna {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  /* background: #f0e6d2; */
+  cursor: pointer;
+  border-radius: 6px;
+  font-weight: 500;
+  transition: 0.3s;
+  text-align: start;
+}
+.btna img {
+  width: 17px;
+  margin-left: 145px;
+}
+
+.btna:hover {
+  background: #e6d5b8;
+}
+
+.white-text {
+  color: #fff;
+}
+
+.white-btn {
+  background: #e8ddc1;
+  color: #be9325;
+}
+.newtnn {
+  background-color: #f1f1ef;
+}
+
+.white-btn:hover {
+  background: #f3f3f3;
+}

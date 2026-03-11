@@ -1,0 +1,220 @@
+/* Page Layout */
+.vt-page {
+    display: flex;
+    gap: 40px;
+    padding: 40px 60px;
+    background: #f5f5f5;
+    min-height: 100vh;
+    font-family: "Poppins", sans-serif;
+}
+
+/* Sidebar */
+.vt-sidebar {
+    width: 230px;
+}
+
+.vt-sidebar h4 {
+    font-size: 16px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 8px;
+}
+
+.vt-sidebar-buttons button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 12px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    background: #fff;
+    cursor: pointer;
+    text-align: left;
+    transition: all 0.3s ease;
+    font-size: 14px;
+}
+
+.vt-sidebar-buttons button:hover {
+    border: 1px solid #d4a017;
+    background: #fff8e1;
+    color: #d4a017;
+}
+
+.vt-sidebar-buttons button.vt-active {
+    border: 1px solid #d4a017;
+    background: #fff8e1;
+    color: #d4a017;
+    font-weight: 500;
+}
+
+/* Main Content */
+.vt-content {
+    flex: 1;
+}
+
+.vt-title {
+    font-size: 28px;
+    margin-bottom: 30px;
+}
+
+/* Cards Layout */
+.vt-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    gap: 20px;
+}
+
+/* Card */
+.vt-card {
+    background: #fff;
+    border-radius: 18px;
+    overflow: hidden;
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.06);
+    transition: transform 0.3s ease;
+}
+
+.vt-card:hover {
+    transform: translateY(-6px);
+}
+
+/* Image */
+.vt-card-img {
+    height: 150px;
+    overflow: hidden;
+}
+
+.vt-card-img img {
+    width: 100%;
+    object-fit: cover;
+}
+
+/* Card Body */
+.vt-card-body {
+    padding: 18px;
+}
+
+.vt-card-body h3 {
+    margin-bottom: 8px;
+    font-size: 20px;
+}
+
+/* Location */
+.vt-location {
+    font-size: 13px;
+    color: #555;
+    margin-bottom: 6px;
+}
+
+/* Rating */
+.vt-rating {
+    font-size: 13px;
+    margin-bottom: 10px;
+    color: #f5a623;
+}
+
+.vt-rating span {
+    color: #444;
+    margin-left: 6px;
+    font-size: 12px;
+}
+
+/* Tags */
+.vt-tags {
+    display: flex;
+    gap: 3px;
+    flex-wrap: wrap;
+    margin-bottom: 15px;
+}
+
+.vt-tags span {
+    font-size: 11px;
+    padding: 4px 10px;
+    border-radius: 20px;
+    background: #fff8e1;
+    border: 1px solid #d4a017;
+    color: #d4a017;
+}
+
+/* Price Row */
+.vt-price-row {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    margin-bottom: 12px;
+}
+
+.vt-price {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+/* Request Button */
+.vt-request-btn {
+    width: 100%;
+    background: #3fa34d;
+    border: none;
+    padding: 10px;
+    border-radius: 25px;
+    color: white;
+    font-size: 13px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.vt-request-btn:hover {
+    background: #2e7d32;
+}
+
+/* Bottom Filter Buttons */
+.vt-filter-bottom {
+    margin-top: 30px;
+    display: flex;
+    gap: 12px;
+}
+
+.vt-clear-btn {
+    background: #111;
+    color: white;
+    border: none;
+    padding: 8px 20px;
+    border-radius: 20px;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.vt-apply-btn {
+    background: #d4a017;
+    color: white;
+    border: none;
+    padding: 8px 20px;
+    border-radius: 20px;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+/* Responsive */
+@media (max-width: 1024px) {
+    .vt-page {
+        flex-direction: column;
+        padding: 30px;
+    }
+
+    .vt-sidebar {
+        width: 100%;
+    }
+}
+
+@media (max-width: 600px) {
+    .vt-title {
+        font-size: 22px;
+    }
+
+    .vt-filter-bottom {
+        flex-direction: column;
+    }
+
+    .vt-clear-btn,
+    .vt-apply-btn {
+        width: 100%;
+    }
+}

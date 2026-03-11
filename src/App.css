@@ -1,42 +1,131 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
+header {
+  height: 90px;
+  box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
+  background-color: #fffbf2;
+  width: 100%;
+}
+.container {
+  padding: 10px 150px 10px 150px;
+  height: 80px;
+}
+.grid {
+  display: grid;
+}
+.navbar-grid {
+  grid-template-columns: 0.5fr 1fr;
+  align-items: center;
+  height: 80px;
+}
+nav ul {
+  display: flex;
+  justify-content: flex-end;
+  gap: 50px;
+}
+li {
+  list-style: none;
+}
+li a {
+  text-decoration: none;
+  color: #000;
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
-}
-
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
+  &:hover {
+    color: #daa425;
   }
-  to {
-    transform: rotate(360deg);
+}
+button {
+  cursor: pointer;
+}
+.ham-menu {
+  display: none;
+}
+.khush {
+  color: #b9860f;
+}
+.login-btn {
+  background-color: #b9860f;
+  border-radius: 15px;
+  padding: 6px 20px;
+  border: none;
+}
+.login-btn a {
+  color: #f9efd8;
+}
+/* dropdown fiest line */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+.dropdown-btn {
+  background: #fffbf2;
+  border: none;
+  cursor: pointer;
+}
+.dropdown-menu {
+  position: absolute;
+  top: 52px;
+  left: -899px;
+  right: -563px;
+  background: #fffbf2;
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  gap: 150px;
+}
+.dropdown-menu p {
+  position: relative;
+  padding-bottom: 6px;
+  &:hover {
+    color: #b9860f;
   }
 }
+.dropdown-menu p::after {
+  content: "";
+  position: absolute;
+  left: -40px;
+  bottom: 0;
+  width: 0;
+  height: 2px;
+  background: #daa425;
+  transition: width 0.3s ease;
+}
+.dropdown-menu p:hover::after {
+  width: 190%;
+}
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
+/* media queries */
+@media screen and (max-width: 998px) {
+  .menu-web {
+    display: none;
   }
-}
 
-.card {
-  padding: 2em;
-}
-
-.read-the-docs {
-  color: #888;
-}
+  .ham-menu {
+    display: inline-block;
+    text-align: end;
+  }
+  .menu-mobaile {
+    position: absolute;
+    top: 90px;
+    left: 0;
+    background-color: #f9efd8;
+    width: 100%;
+    box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
+  }
+  .menu-mobaile ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .menu-mobaile ul li:first-child {
+    margin-top: 10px;
+  }
+  .menu-mobaile ul li:last-child {
+    margin-bottom: 10px;
+  }
+} 

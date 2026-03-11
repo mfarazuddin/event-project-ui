@@ -1,0 +1,74 @@
+.explore-section {
+  padding: 60px 8%;
+  background: #f4f4f4;
+}
+
+.explore-section h2 {
+  font-size: 32px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  color: #777;
+  font-size: 20px;
+  margin-bottom: 40px;
+}
+
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 25px;
+}
+
+.carda {
+  background: #fff;
+  border-radius: 18px;
+  overflow: hidden;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+  transition: 0.3s ease;
+}
+
+.carda:hover {
+  transform: translateY(-8px);
+}
+
+.carda img {
+  width: 100%;
+  height: 170px;
+  object-fit: cover;
+}
+
+.card-content {
+  padding: 18px;
+  text-align: left;
+}
+
+.card-content h3 {
+  font-size: 18px;
+  margin-bottom: 12px;
+  font-weight: 600;
+}
+
+.card-content button {
+  padding: 8px 16px;
+  border-radius: 25px;
+  border: 1px solid #d4a62a;
+  background: transparent;
+    cursor: pointer;
+  font-size: 13px;
+  transition: 0.3s;
+}
+.card-content button a {
+  text-decoration: none;
+  color: #d4a62a;
+}
+
+.card-content button:hover {
+  background: #d4a62a;
+  color: white;
+}
+.card-content button a:hover {
+  color: white;
+
+}
